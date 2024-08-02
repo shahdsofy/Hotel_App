@@ -1,0 +1,543 @@
+<odoo>
+<record id="xml_data" model="customer.model">
+<field name="customer_name">Ahmed sayed</field>
+<field name="customer_id">111</field>
+<field name="customer_number">0102256984</field>
+<field name="customer_address">cairo</field>
+<field name="gender">male</field>
+</record>
+<record id="xml_data01" model="customer.model">
+<field name="customer_name">John Smith</field>
+<field name="customer_id">112</field>
+<field name="customer_number">0123456789</field>
+<field name="customer_address">New York</field>
+<field name="gender">male</field>
+</record>
+<record id="xml_data2" model="customer.model">
+<field name="customer_name">laila mohamed</field>
+<field name="customer_id">222</field>
+<field name="customer_number">0117856984</field>
+<field name="customer_address">fayoum</field>
+<field name="gender">female</field>
+</record>
+<record id="xml_data02" model="customer.model">
+<field name="customer_name">Emily Johnson</field>
+<field name="customer_id">113</field>
+<field name="customer_number">0987654321</field>
+<field name="customer_address">Los Angeles</field>
+<field name="gender">female</field>
+</record>
+<record id="xml_data3" model="customer.model">
+<field name="customer_name">mazen ali</field>
+<field name="customer_id">333</field>
+<field name="customer_number">0102211184</field>
+<field name="customer_address">alex</field>
+<field name="gender">male</field>
+</record>
+<record id="xml_data03" model="customer.model">
+<field name="customer_name">Michael Davis</field>
+<field name="customer_id">114</field>
+<field name="customer_number">0777777777</field>
+<field name="customer_address">London</field>
+<field name="gender">male</field>
+</record>
+<record id="xml_data4" model="customer.model">
+<field name="customer_name">mohsen ali</field>
+<field name="customer_id">444</field>
+<field name="customer_number">0155211185</field>
+<field name="customer_address">alex</field>
+<field name="gender">male</field>
+</record>
+<record id="xml_data04" model="customer.model">
+<field name="customer_name">Olivia Williams</field>
+<field name="customer_id">117</field>
+<field name="customer_number">0547896321</field>
+<field name="customer_address">Sydney</field>
+<field name="gender">female</field>
+</record>
+<record id="xml_data5" model="customer.model">
+<field name="customer_name">shahd mohamed</field>
+<field name="customer_id">555</field>
+<field name="customer_number">0155211147</field>
+<field name="customer_address">cairo</field>
+<field name="gender">female</field>
+</record>
+<record id="xml_data05" model="customer.model">
+<field name="customer_name">David Lee</field>
+<field name="customer_id">120</field>
+<field name="customer_number">0852369741</field>
+<field name="customer_address">Seoul</field>
+<field name="gender">male</field>
+</record>
+<record id="xml_data06" model="customer.model">
+<field name="customer_name">Ava Wilson</field>
+<field name="customer_id">121</field>
+<field name="customer_number">0932165478</field>
+<field name="customer_address">Melbourne</field>
+<field name="gender">female</field>
+</record>
+<record id="xml_data07" model="customer.model">
+<field name="customer_name">Fatma Ali</field>
+<field name="customer_id">133</field>
+<field name="customer_number">0123456789</field>
+<field name="customer_address">Alexandria</field>
+<field name="gender">female</field>
+</record>
+<record id="xml_data08" model="customer.model">
+<field name="customer_name">Ahmed Mahmoud</field>
+<field name="customer_id">134</field>
+<field name="customer_number">0112345678</field>
+<field name="customer_address">Giza</field>
+<field name="gender">male</field>
+</record>
+<record id="xml_data09" model="customer.model">
+<field name="customer_name">Nour Abdullah</field>
+<field name="customer_id">135</field>
+<field name="customer_number">0109876543</field>
+<field name="customer_address">Luxor</field>
+<field name="gender">female</field>
+</record>
+<record id="xml_data0010" model="customer.model">
+<field name="customer_name">Ali Ibrahim</field>
+<field name="customer_id">136</field>
+<field name="customer_number">0102468135</field>
+<field name="customer_address">Aswan</field>
+<field name="gender">male</field>
+</record>
+<record id="xml_data0011" model="customer.model">
+<field name="customer_name">Mona Ahmed</field>
+<field name="customer_id">137</field>
+<field name="customer_number">0111111111</field>
+<field name="customer_address">Suez</field>
+<field name="gender">female</field>
+</record>
+<record id="xml_data0012" model="customer.model">
+<field name="customer_name">Amr Khalid</field>
+<field name="customer_id">138</field>
+<field name="customer_number">0123456789</field>
+<field name="customer_address">Port Said</field>
+<field name="gender">male</field>
+</record>
+<record id="xml_data0013" model="customer.model">
+<field name="customer_name">Sara Mostafa</field>
+<field name="customer_id">139</field>
+<field name="customer_number">0101234567</field>
+<field name="customer_address">Asyut</field>
+<field name="gender">female</field>
+</record>
+<record id="xml_data0014" model="customer.model">
+<field name="customer_name">Mahmoud Said</field>
+<field name="customer_id">140</field>
+<field name="customer_number">0112345678</field>
+<field name="customer_address">Qena</field>
+<field name="gender">male</field>
+</record>
+<record id="xml_data0015" model="customer.model">
+<field name="customer_name">Mia Anderson</field>
+<field name="customer_id">119</field>
+<field name="customer_number">0765432109</field>
+<field name="customer_address">Tokyo</field>
+<field name="gender">female</field>
+</record>
+<record id="xml_data66" model="room.model">
+<field name="room_number">20</field>
+<field name="beds_number">2</field>
+<field name="floor_number">1</field>
+<field name="room_type">Standard Room</field>
+</record>
+<record id="xml_data99" model="room.model">
+<field name="room_number">29</field>
+<field name="beds_number">2</field>
+<field name="floor_number">1</field>
+<field name="room_type">Pool View Room</field>
+</record>
+<record id="xml_data75" model="room.model">
+<field name="room_number">21</field>
+<field name="beds_number">4</field>
+<field name="floor_number">1</field>
+<field name="room_type">Deluxe Room</field>
+</record>
+<record id="xml_data89" model="room.model">
+<field name="room_number">22</field>
+<field name="beds_number">3</field>
+<field name="floor_number">1</field>
+<field name="room_type">Suite</field>
+</record>
+<record id="xml_data11" model="room.model">
+<field name="room_number">25</field>
+<field name="beds_number">4</field>
+<field name="floor_number">2</field>
+<field name="room_type">Executive Room</field>
+</record>
+<record id="xml_data22" model="room.model">
+<field name="room_number">30</field>
+<field name="beds_number">1</field>
+<field name="floor_number">3</field>
+<field name="room_type">Superior Room</field>
+</record>
+<record id="xml_data33" model="room.model">
+<field name="room_number">31</field>
+<field name="beds_number">2</field>
+<field name="floor_number">3</field>
+<field name="room_type">Family Room</field>
+</record>
+<record id="xml_data300" model="room.model">
+<field name="room_number">35</field>
+<field name="beds_number">4</field>
+<field name="floor_number">2</field>
+<field name="room_type">Junior Suite</field>
+</record>
+<record id="data67" model="room.model">
+<field name="room_number">23</field>
+<field name="beds_number">2</field>
+<field name="floor_number">1</field>
+<field name="room_type">Standard Room</field>
+</record>
+<record id="xml_data7" model="room.model">
+<field name="room_number">36</field>
+<field name="beds_number">1</field>
+<field name="floor_number">3</field>
+<field name="room_type">Connecting Rooms</field>
+</record>
+<record id="xml_data8" model="room.model">
+<field name="room_number">37</field>
+<field name="beds_number">3</field>
+<field name="floor_number">2</field>
+<field name="room_type">Ocean View Room</field>
+</record>
+<record id="xml_data9" model="room.model">
+<field name="room_number">388</field>
+<field name="beds_number">2</field>
+<field name="floor_number">1</field>
+<field name="room_type">Penthouse Suite</field>
+</record>
+<record id="xml_data10" model="room.model">
+<field name="room_number">390</field>
+<field name="beds_number">1</field>
+<field name="floor_number">4</field>
+<field name="room_type">Garden View Room</field>
+</record>
+<record id="xml_data55" model="room.model">
+<field name="room_number">344</field>
+<field name="beds_number">4</field>
+<field name="floor_number">1</field>
+<field name="room_type">Bungalow</field>
+</record>
+<record id="xml_data5585" model="booking.model">
+<field name="booking_id">122</field>
+<field name="date_from">2024-05-01</field>
+<field name="date_to">2024-05-05</field>
+</record>
+<record id="xml_data13" model="booking.model">
+<field name="booking_id">132</field>
+<field name="date_from">2024-05-10</field>
+<field name="date_to">2024-05-15</field>
+</record>
+<record id="xml_data5595" model="booking.model">
+<field name="booking_id">133</field>
+<field name="date_from">2024-06-21</field>
+<field name="date_to">2024-06-25</field>
+</record>
+<record id="xml_data14" model="booking.model">
+<field name="booking_id">177</field>
+<field name="date_from">2024-05-25</field>
+<field name="date_to">2024-05-27</field>
+</record>
+<record id="xml_data5594" model="booking.model">
+<field name="booking_id">131</field>
+<field name="date_from">2024-06-16</field>
+<field name="date_to">2024-06-20</field>
+</record>
+<record id="xml_data5593" model="booking.model">
+<field name="booking_id">130</field>
+<field name="date_from">2024-06-11</field>
+<field name="date_to">2024-06-15</field>
+</record>
+<record id="xml_data15" model="booking.model">
+<field name="booking_id">178</field>
+<field name="date_from">2024-04-25</field>
+<field name="date_to">2024-05-21</field>
+</record>
+<record id="xml_data5592" model="booking.model">
+<field name="booking_id">129</field>
+<field name="date_from">2024-06-06</field>
+<field name="date_to">2024-06-10</field>
+</record>
+<record id="xml_data5591" model="booking.model">
+<field name="booking_id">128</field>
+<field name="date_from">2024-06-01</field>
+<field name="date_to">2024-06-05</field>
+</record>
+<record id="xml_data5590" model="booking.model">
+<field name="booking_id">127</field>
+<field name="date_from">2024-05-26</field>
+<field name="date_to">2024-05-30</field>
+</record>
+<record id="xml_data16" model="booking.model">
+<field name="booking_id">179</field>
+<field name="date_from">2024-02-25</field>
+<field name="date_to">2024-06-02</field>
+</record>
+<record id="xml_data5589" model="booking.model">
+<field name="booking_id">126</field>
+<field name="date_from">2024-05-21</field>
+<field name="date_to">2024-05-25</field>
+</record>
+<record id="xml_data5588" model="booking.model">
+<field name="booking_id">125</field>
+<field name="date_from">2024-05-16</field>
+<field name="date_to">2024-05-20</field>
+</record>
+<record id="xml_data5587" model="booking.model">
+<field name="booking_id">124</field>
+<field name="date_from">2024-05-11</field>
+<field name="date_to">2024-05-15</field>
+</record>
+<record id="xml_data5586" model="booking.model">
+<field name="booking_id">123</field>
+<field name="date_from">2024-05-06</field>
+<field name="date_to">2024-05-10</field>
+</record>
+<record id="xml_data17" model="booking.model">
+<field name="booking_id">180</field>
+<field name="date_from">2024-03-05</field>
+<field name="date_to">2024-05-10</field>
+</record>
+    <record id="xml_data2000" model="booking.model">
+    <field name="booking_id">200</field>
+    <field name="date_from">2024-05-16</field>
+    <field name="date_to">2024-05-20</field>
+</record>
+<record id="xml_data2001" model="booking.model">
+    <field name="booking_id">201</field>
+    <field name="date_from">2024-05-21</field>
+    <field name="date_to">2024-05-25</field>
+</record>
+    <record id="xml_data2002" model="booking.model">
+    <field name="booking_id">202</field>
+    <field name="date_from">2024-05-26</field>
+    <field name="date_to">2024-05-30</field>
+</record>
+    <record id="xml_data2003" model="booking.model">
+    <field name="booking_id">203</field>
+    <field name="date_from">2024-05-31</field>
+    <field name="date_to">2024-06-04</field>
+</record>
+    <record id="xml_data2004" model="booking.model">
+    <field name="booking_id">204</field>
+    <field name="date_from">2024-06-05</field>
+    <field name="date_to">2024-06-09</field>
+</record>
+    <record id="xml_data2005" model="booking.model">
+    <field name="booking_id">205</field>
+    <field name="date_from">2024-06-10</field>
+    <field name="date_to">2024-06-14</field>
+</record>
+    <record id="xml_data2006" model="booking.model">
+    <field name="booking_id">206</field>
+    <field name="date_from">2024-06-15</field>
+    <field name="date_to">2024-06-19</field>
+</record>
+    <record id="xml_data2007" model="booking.model">
+    <field name="booking_id">207</field>
+    <field name="date_from">2024-06-20</field>
+    <field name="date_to">2024-06-24</field>
+</record>
+    <record id="xml_data2008" model="booking.model">
+    <field name="booking_id">208</field>
+    <field name="date_from">2024-06-25</field>
+    <field name="date_to">2024-06-29</field>
+</record>
+    <record id="xml_data2009" model="booking.model">
+    <field name="booking_id">209</field>
+    <field name="date_from">2024-06-30</field>
+    <field name="date_to">2024-07-04</field>
+</record>
+    <record id="xml_data2010" model="booking.model">
+    <field name="booking_id">210</field>
+    <field name="date_from">2024-07-05</field>
+    <field name="date_to">2024-07-09</field>
+</record>
+
+<record id="data_1000" model="payment">
+<field name="hotel_payment_id">1</field>
+<field name="price">50</field>
+<field name="currency">USD</field>
+<field name="hotel_payment_date">2024-05-10</field>
+<field name="Credit">False</field>
+<field name="Cash">True</field>
+</record>
+
+<record id="data_1005" model="payment">
+    <field name="hotel_payment_id">6</field>
+    <field name="price">100</field>
+    <field name="currency">EGP</field>
+    <field name="hotel_payment_date">2024-05-15</field>
+    <field name="Credit">False</field>
+    <field name="Cash">True</field>
+</record>
+    <record id="data_1001" model="payment">
+    <field name="hotel_payment_id">2</field>
+    <field name="price">100</field>
+    <field name="currency">	JPY</field>
+    <field name="hotel_payment_date">2024-05-11</field>
+    <field name="Credit">False</field>
+    <field name="Cash">True</field>
+</record>
+
+    <record id="data_1002" model="payment">
+    <field name="hotel_payment_id">3</field>
+    <field name="price">5000</field>
+    <field name="currency">GBP</field>
+    <field name="hotel_payment_date">2024-05-12</field>
+    <field name="Credit">True</field>
+    <field name="Cash">False</field>
+</record>
+    <record id="data_1003" model="payment">
+    <field name="hotel_payment_id">4</field>
+    <field name="price">2000</field>
+    <field name="currency">ZAR</field>
+    <field name="hotel_payment_date">2024-05-13</field>
+    <field name="Credit">False</field>
+    <field name="Cash">True</field>
+</record>
+    <record id="data_1004" model="payment">
+    <field name="hotel_payment_id">5</field>
+    <field name="price">50</field>
+    <field name="currency">EUR</field>
+    <field name="hotel_payment_date">2024-05-14</field>
+    <field name="Credit">True</field>
+    <field name="Cash">False</field>
+</record>
+    <record id="data_1005" model="payment">
+    <field name="hotel_payment_id">6</field>
+    <field name="price">100</field>
+    <field name="currency">HKD</field>
+    <field name="hotel_payment_date">2024-05-15</field>
+    <field name="Credit">False</field>
+    <field name="Cash">True</field>
+</record>
+    <record id="data_1006" model="payment">
+    <field name="hotel_payment_id">7</field>
+    <field name="price">20</field>
+     <field name="currency">TRY</field>
+    <field name="hotel_payment_date">2024-05-16</field>
+    <field name="Credit">True</field>
+    <field name="Cash">False</field>
+</record>
+    <record id="data_1007" model="payment">
+    <field name="hotel_payment_id">8</field>
+    <field name="price">75</field>
+    <field name="currency">CAD</field>
+    <field name="hotel_payment_date">2024-05-17</field>
+    <field name="Credit">False</field>
+    <field name="Cash">True</field>
+</record>
+    <record id="data_1008" model="payment">
+    <field name="hotel_payment_id">9</field>
+    <field name="price">500</field>
+    <field name="currency">	EUR</field>
+    <field name="hotel_payment_date">2024-05-18</field>
+    <field name="Credit">True</field>
+    <field name="Cash">False</field>
+</record>
+    <record id="data_1009" model="payment">
+    <field name="hotel_payment_id">10</field>
+    <field name="price">30</field>
+    <field name="currency">AUD</field>
+    <field name="hotel_payment_date">2024-05-19</field>
+    <field name="Credit">False</field>
+    <field name="Cash">True</field>
+</record>
+    <record id="data_1013" model="payment">
+    <field name="hotel_payment_id">14</field>
+    <field name="price">1000</field>
+    <field name="currency">EGP</field>
+    <field name="hotel_payment_date">2024-05-23</field>
+    <field name="Credit">False</field>
+    <field name="Cash">True</field>
+</record>
+    <record id="data_1014" model="payment">
+    <field name="hotel_payment_id">15</field>
+    <field name="price">75</field>
+    <field name="currency">USD</field>
+    <field name="hotel_payment_date">2024-05-24</field>
+    <field name="Credit">True</field>
+    <field name="Cash">False</field>
+</record>
+    <record id="data_1015" model="payment">
+    <field name="hotel_payment_id">16</field>
+    <field name="price">25</field>
+    <field name="currency">GBP</field>
+    <field name="hotel_payment_date">2024-05-25</field>
+    <field name="Credit">False</field>
+    <field name="Cash">True</field>
+</record>
+
+    <record id="data_1016" model="payment">
+    <field name="hotel_payment_id">17</field>
+    <field name="price">1500</field>
+    <field name="currency">TRY</field>
+    <field name="hotel_payment_date">2024-05-26</field>
+    <field name="Credit">True</field>
+    <field name="Cash">False</field>
+</record>
+    <record id="data_1018" model="payment">
+    <field name="hotel_payment_id">19</field>
+    <field name="price">80</field>
+    <field name="currency">EUR</field>
+    <field name="hotel_payment_date">2024-05-28</field>
+    <field name="Credit">True</field>
+    <field name="Cash">False</field>
+</record>
+    <record id="data_1017" model="payment">
+    <field name="hotel_payment_id">18</field>
+    <field name="price">30</field>
+     <field name="currency">JPY</field>
+    <field name="hotel_payment_date">2024-05-27</field>
+    <field name="Credit">False</field>
+    <field name="Cash">True</field>
+</record>
+    <record id="data_1020" model="payment">
+    <field name="hotel_payment_id">21</field>
+    <field name="price">40</field>
+       <field name="currency">AUD</field>
+    <field name="hotel_payment_date">2024-05-30</field>
+    <field name="Credit">True</field>
+    <field name="Cash">False</field>
+</record>
+    <record id="data_1019" model="payment">
+    <field name="hotel_payment_id">20</field>
+    <field name="price">2500</field>
+    <field name="currency">EGP</field>
+    <field name="hotel_payment_date">2024-05-29</field>
+    <field name="Credit">False</field>
+    <field name="Cash">True</field>
+</record>
+    <record id="data_1020" model="payment">
+    <field name="hotel_payment_id">21</field>
+    <field name="price">40</field>
+    <field name="currency">EUR</field>
+    <field name="hotel_payment_date">2024-05-30</field>
+    <field name="Credit">True</field>
+    <field name="Cash">False</field>
+</record>
+    <record id="data_1021" model="payment">
+    <field name="hotel_payment_id">22</field>
+    <field name="price">750</field>
+    <field name="currency">₡</field>
+    <field name="hotel_payment_date">2024-05-31</field>
+    <field name="Credit">False</field>
+    <field name="Cash">True</field>
+</record>
+    <record id="data_1023" model="payment">
+    <field name="hotel_payment_id">24</field>
+    <field name="price">60</field>
+    <field name="currency">€</field>
+    <field name="hotel_payment_date">2024-06-02</field>
+    <field name="Credit">False</field>
+    <field name="Cash">True</field>
+</record>
+
+
+</odoo>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+
+    <record id="customer_access_right" model="ir.model.access">
+        <field name="name">customer access rights</field>
+        <field name="model_id" ref="model_customer_model" />
+        <field name="group_id" ref="base.group_user"/>
+        <field name="perm_read" eval="True"/>
+        <field name="perm_write" eval="True"/>
+        <field name="perm_create" eval="True"/>
+        <field name="perm_unlink" eval="False"/>
+    </record>
+
+    <record id="room_access_right" model="ir.model.access">
+        <field name="name">room access rights</field>
+        <field name="model_id" ref="model_room_model" />
+        <field name="group_id" ref="base.group_user"/>
+        <field name="perm_read" eval="True"/>
+        <field name="perm_write" eval="True"/>
+        <field name="perm_create" eval="True"/>
+        <field name="perm_unlink" eval="False"/>
+    </record>
+
+
+
+    <record id="booking_access_right" model="ir.model.access">
+        <field name="name">booking access rights</field>
+        <field name="model_id" ref="model_booking_model" />
+        <field name="group_id" ref="base.group_user"/>
+        <field name="perm_read" eval="True"/>
+        <field name="perm_write" eval="True"/>
+        <field name="perm_create" eval="True"/>
+        <field name="perm_unlink" eval="False"/>
+    </record>
+
+
+    <record id="payment_access_right" model="ir.model.access">
+        <field name="name">payment access rights</field>
+        <field name="model_id" ref="model_payment" />
+        <field name="group_id" ref="base.group_user"/>
+        <field name="perm_read" eval="True"/>
+        <field name="perm_write" eval="True"/>
+        <field name="perm_create" eval="True"/>
+        <field name="perm_unlink" eval="False"/>
+    </record>
+     <record id="cash_access_right" model="ir.model.access">
+        <field name="name">payment access rights</field>
+        <field name="model_id" ref="model_payment" />
+        <field name="group_id" ref="base.group_user"/>
+        <field name="perm_read" eval="True"/>
+        <field name="perm_write" eval="True"/>
+        <field name="perm_create" eval="True"/>
+        <field name="perm_unlink" eval="False"/>
+    </record>
+     <record id="payment_access_right" model="ir.model.access">
+        <field name="name">payment access rights</field>
+        <field name="model_id" ref="model_payment" />
+        <field name="group_id" ref="base.group_user"/>
+        <field name="perm_read" eval="True"/>
+        <field name="perm_write" eval="True"/>
+        <field name="perm_create" eval="True"/>
+        <field name="perm_unlink" eval="False"/>
+    </record>
+
+    <record id="create_employee_group" model="res.groups">
+        <field name="name">employee</field>
+    </record>
+
+    <record id="create_manager_group" model="res.groups">
+        <field name="name">manager</field>
+    </record>
+<!--
+    <record id="create_record_rule" model="ir.rule">
+        <field name="name">create record rule</field>
+        <field name="model_id" ref="model_customer_model"/>
+        <field name="groups" eval="[(4,ref('base.group_user'))]"/>
+        <field name="domain_force">[('create_uid','=','user.id')]</field>
+    </record>
+-->
+
+</odoo>
+

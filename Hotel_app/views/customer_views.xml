@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="customer_view_form" model="ir.ui.view">
+        <field name="name">customer.view.form</field>
+        <field name="model">customer.model</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="customer_name"/>
+                            <field name="customer_id"/>
+                        </group>
+                        <group>
+                            <field name="customer_address"/>
+                            <field name="customer_number"/>
+                        </group>
+                       <group>
+                           <field name="gender"/>
+                       </group>
+                    </group>
+                </sheet>
+                 <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="message_ids"/>
+                    <field name="activity_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+
+    <record id="customer_view_tree" model="ir.ui.view">
+        <field name="name">customer.view.tree</field>
+        <field name="model">customer.model</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="customer_name"/>
+                <field name="customer_id"/>
+                <field name="customer_address"/>
+                <field name="customer_number"/>
+                <field name="gender"/>
+            </tree>
+        </field>
+    </record>
+
+     <record id="customer_view_search" model="ir.ui.view">
+        <field name="name">customer.view.search</field>
+        <field name="model">customer.model</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="customer_name"/>
+                <filter name="filter_male" string="male" domain="[('gender','=','male')]"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="customer_view_action" model="ir.actions.act_window">
+        <field name="name">Customers</field>
+        <field name="res_model">customer.model</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="first_menu"
+              name="Hotel"
+              sequence="1"
+    />
+
+    <menuitem id="second_menu"
+              name="customer"
+              parent="first_menu"
+              action='customer_view_action'
+    />
+
+
+
+
+</odoo>
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="room_view_form" model="ir.ui.view">
+        <field name="name">room.view.form</field>
+        <field name="model">room.model</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="room_number"/>
+                            <field name="beds_number"/>
+                        </group>
+                        <group>
+                            <field name="floor_number"/>
+                            <field name="room_type"/>
+                        </group>
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="message_ids"/>
+                    <field name="activity_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+
+    <record id="room_view_tree" model="ir.ui.view">
+        <field name="name">room.view.tree</field>
+        <field name="model">room.model</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="room_number"/>
+                <field name="beds_number"/>
+                <field name="floor_number"/>
+                <field name="room_type"/>
+
+            </tree>
+        </field>
+    </record>
+
+    <record id="room_view_action" model="ir.actions.act_window">
+        <field name="name">Hotel Rooms</field>
+        <field name="res_model">room.model</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+         <record id="room_view_search" model="ir.ui.view">
+        <field name="name">room.view.search</field>
+        <field name="model">room.model</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="room_type"/>
+              <filter name="filter_room_type" string="Standard Room" domain="[('room_type','=','Standard Room')]"/>
+              <filter name="filter_beds_number" string="Two Beds" domain="[('beds_number','=',2)]"/>
+            </search>
+        </field>
+    </record>
+
+
+    <menuitem id="third_menu"
+              name="Rooms"
+              parent="first_menu"
+              action='room_view_action'
+    />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</odoo>
+

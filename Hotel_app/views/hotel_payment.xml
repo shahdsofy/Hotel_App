@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="payment_view_form" model="ir.ui.view">
+        <field name="name">payment.view.form</field>
+        <field name="model">payment</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                <field name="state" widget="statusbar" statusbar_visible="draft,in_progress,completed" options="{'clickable': '1'}"/>
+                </header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="hotel_payment_id"/>
+                            <field name="customer_id"/>
+                            <field name="hotel_payment_date"/>
+
+                        </group>
+                        <group>
+                             <field name="price"/>
+                            <field name="currency"/>
+                        </group>
+                    </group>
+                </sheet>
+
+            </form>
+        </field>
+    </record>
+
+    <record id="payment_view_tree" model="ir.ui.view">
+        <field name="name">payment.view.tree</field>
+        <field name="model">payment</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="hotel_payment_id"/>
+                <field name="hotel_payment_date"/>
+                 <field name="price"/>
+                 <field name="currency"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="payment_view_action" model="ir.actions.act_window">
+        <field name="name">Payment</field>
+        <field name="res_model">payment</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <menuitem id="fourth_menu"
+              name="payment"
+              parent="first_menu"
+              action='payment_view_action'
+    />
+
+
+</odoo>
+
